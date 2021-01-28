@@ -10,6 +10,7 @@ import { connectionString } from 'orm.config'
   imports: [
     TasksModule,
     TypegooseModule.forRoot(connectionString.url),
+    //a
   ],
 
 
